@@ -1,0 +1,151 @@
+.all{
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(34, 34, 34);
+    width: 1600px;
+    height: 745px;
+    text-align: center;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 0px 40px 40px 0px;
+}
+.player-content{  
+    width: 68%;
+    height: 100%;
+    float:left;
+    text-align: center;
+}
+.playlist-content{
+    background-color: rgb(34, 34, 34);
+    width: 31%;
+    height: 100%;
+    margin-left: 1%;
+    float:left;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pl-element{
+    display: flex;
+    margin: 20px;
+}
+.p-element{
+    display: flex;
+    flex-direction: column;
+}
+.p1, .p2, .p3, .p4{
+    font-size: 25px;
+    margin-left: 30px;
+    color: rgb(56, 146, 255);
+    font-weight: bold;
+}
+.now{
+    font-size: 25px;
+    color: rgb(56, 146, 255);
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.img-sector{
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(30, 30, 30);
+}
+.screen-content{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(32, 32, 32);
+}
+.screen-content{
+    cursor: pointer;
+}
+.videoScreen{
+    width: 100%;
+}
+.videoScreenPlaylist1, .videoScreenPlaylist2, .videoScreenPlaylist3, .videoScreenPlaylist4{
+    width: 100%;
+}
+.videoScreenPlaylist1:hover, .videoScreenPlaylist2:hover, .videoScreenPlaylist3:hover, .videoScreenPlaylist4:hover{
+    opacity: 0.5;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button-content{
+    width: 100%;
+    height: 60px;
+}
+.sliderVolume{
+    width: 140px;
+    height: 5px;
+    margin: 22px 0px 0px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    float: left;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+    -webkit-appearance: none;
+    box-shadow: 0px 0px 5px rgb(33, 33, 33);
+}
+.play, .stop, .previous, .next, .muteButton{
+    width: 88px;
+    height: 40px;
+    margin: 4px 0px 0px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    float: left;
+    color: rgb(56, 146, 255);
+    background-color: black;
+    box-shadow: 0px 0px 5px rgb(17, 17, 17);
+    font-size: 16px;
+    font-weight: bold;
+}
+.shuffle, .loop, .fullscr{
+    width: 88px;
+    height: 40px;
+    margin: 4px 10px 0px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    color: rgb(56, 146, 255);
+    background-color: black;
+    box-shadow: 0px 0px 5px rgb(43, 43, 43);
+    font-size: 16px;
+    font-weight: bold;
+}
+.timeSlider{
+    width: 90%;
+    height: 5px;
+    margin-top: 31px;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+    -webkit-appearance: none;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.time-sector{
+    display: flex;
+    justify-content: space-between;
+}
+.pTimer2{
+    color: rgb(56, 146, 255);
+    text-shadow: 0px 0px 10px rgb(24, 24, 24);
+    font-size: 19px;
+    font-weight: bold;
+}
+.pTimer1{
+    color: rgb(56, 146, 255);
+    text-shadow: 0px 0px 10px rgb(23, 23, 23);
+    font-size: 19px;
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mp4 player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="all">
+        <div class="player-content">
+            <div class="screen-content">
+                <video class="videoScreen" id=1></video>
+            </div>
+            <div class="time-sector">
+                <div><p class="pTimer1">0:00</p></div>
+                <input type="range" min="1" max="1" value="0" class="timeSlider">
+                <div><p class="pTimer2">0:00</p></div>
+            </div>
+            <div class="button-content">
+                <button class="play">PLAY</button>
+                <button class="stop">STOP</button>
+                <button class="previous">PREV</button>
+                <button class="next">NEXT</button>
+                <button class="muteButton">MUTE</button>
+                <input type="range" min="0" step="1" max="100" value="100" class="sliderVolume">
+                <button class="fullscr">FULLSCR</button>
+                <button class="loop">LOOP</button>
+                <button class="shuffle">SHUFFLE</button>
+            </div>
+        </div>
+        <div class="playlist-content">
+            <div class="pl-element">
+                <div class="img-sector"><video class="videoScreenPlaylist1"></video></div>
+                <div class="p-element">
+                    <p class="p1">track 1</p>
+                </div>
+            </div>
+            <div class="pl-element">
+                <div class="img-sector"><video class="videoScreenPlaylist2"></video></div>
+                <div class="p-element">
+                    <p class="p2">track 2</p>
+                </div>
+            </div>
+            <div class="pl-element">
+                <div class="img-sector"><video class="videoScreenPlaylist3"></video></div>
+                <div class="p-element">
+                    <p class="p3">track 3</p>
+                </div>
+            </div>
+            <div class="pl-element">
+                <div class="img-sector"><video class="videoScreenPlaylist4"></video></div>
+                <div class="p-element">
+                    <p class="p4">track 4</p>
+                </div>
+            </div>
+            <span class="now">now</span>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
